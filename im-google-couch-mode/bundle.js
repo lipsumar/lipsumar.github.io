@@ -3,7 +3,7 @@ var srcs = require('./srcs.json');
 var currentIndex = Math.round(Math.random()*(srcs.length-1));
 var currentTop = 0;
 var imgs = [];
-var speed = 3;
+var speed = 6;
 var cache_winHeight = document.body.clientHeight;
 
 function next(){
